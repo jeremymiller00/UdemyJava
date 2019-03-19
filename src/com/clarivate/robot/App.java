@@ -12,7 +12,7 @@ public class App {
 //        Robot R5D4 = new Robot("R5D4", 42);
 //        System.out.println(R5D4.name, R5D4.age);
 
-//        Robot.description = "I am a robot!"; // class variables, every instance has the same variable
+        Robot.description = "I am a robot!"; // class variables, every instance has the same variable
 
         System.out.println("Initial Count: "+Robot.count);
         System.out.println(Robot.description);
@@ -33,9 +33,9 @@ public class App {
 //        robo1.showInfo();
 //        robo2.showInfo();
 
-        System.out.println(robo1.description);
-        System.out.println(Math.PI);
-        System.out.println(Robot.luckyNumber);
+//        System.out.println(robo1.description);
+//        System.out.println(Math.PI);
+//        System.out.println(Robot.luckyNumber);
         System.out.println("Current Count: "+Robot.count);
 
 
