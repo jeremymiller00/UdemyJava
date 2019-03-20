@@ -40,7 +40,7 @@ public class stringFormatting {
         System.out.printf("Total value: %.3f\n", 5.675647586);
         System.out.printf("Total value: %-6.1f\n", 5586.675647586);
 
-
+        Object obj = new Object();
 
 
     }
