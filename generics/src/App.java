@@ -30,12 +30,19 @@ public class App {
          }
     }
     public static void showList2(ArrayList<? super Camera> lst) { // `?` mean now an ArrayList of any type of parameter
-        for(Machine value: lst) {                  // but then they will be treated as type Object
+        for (Machine value : lst) {                  // but then they will be treated as type Object
             System.out.println(value);             // Machine and Camera methods will not be available
             value.start();                         // Camera or a superclass; less useful
             value.snap();
         }
-
+    }
+    public static void showList(ArrayList<?> lst) { // `?` mean now an ArrayList of any type of parameter
+        for(Machine value: lst) {                  // but then they will be treated as type Object
+            System.out.println(value);             // Machine and Camera methods will not be available
+            value.start();                         // Machine or a sublcass
+            value.snap();
+        }
+    }
 
 }
 
